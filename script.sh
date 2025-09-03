@@ -63,3 +63,51 @@ echo "    "
 echo "    "
 echo "    "
 echo "    "
+echo "========================================"
+echo "          Criando usuários"
+echo "========================================"
+echo "    "
+useradd carlos -c "Carlos" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_ADM
+passwd carlos -e
+echo " Usuario Carlos criado."
+echo "    "
+useradd maria -c "Maria" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_ADM
+passwd maria -e
+echo " Usuario Maria criado."
+echo "    "
+useradd joao -c "Joao" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_ADM
+passwd joao -e
+echo " Usuario Joao criado."
+echo "    "
+useradd debora -c "Debora" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_VEN
+passwd debora -e
+echo " Usuario Debora criado."
+echo "    "
+useradd sebastiana -c "Sebastiana" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_VEN
+passwd sebastiana -e
+echo " Usuario Sebastiana criado."
+echo "    "
+useradd roberto -c "Roberto" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_VEN
+passwd roberto -e
+echo " Usuario roberto criado."
+echo "    "
+useradd josefina -c "Josefina" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_SEC
+passwd josefina -e
+echo " Usuario Josefina criado."
+echo "    "
+useradd amanda -c "Amanda" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_SEC
+passwd amanda -e
+echo " Usuario Amanda criado."
+echo "    "
+useradd rogerio -c "Rogério" -s /bin/bash  -m -p$(openssl passwd Senha123) -G GRP_SEC
+passwd rogerio -e
+echo " Usuario Rogério criado."
+echo "========================================"
+echo "          Usuários criados"
+echo "========================================"
+echo "   "
+echo "   "
+echo "   " 
+echo "========================================"
+echo "          SCRIPT FINALIZADO"
+echo "========================================"
