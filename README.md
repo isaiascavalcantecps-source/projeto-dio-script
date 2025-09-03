@@ -1,7 +1,7 @@
 
 # Script de Criação de Estrutura de Usuários, Diretórios e Permissões
 
-Este é um script Bash simples e seguro, projetado para automatizar a criação de uma estrutura padronizada de usuários, grupos, diretórios e permissões em um sistema Linux. Ele é ideal para configurar ambientes de desenvolvimento, laboratórios de testes ou para gerenciar a organização básica de um servidor.
+Este é um script Bash simples e seguro, projetado para automatizar a criação de uma estrutura padronizada de usuários, grupos, diretórios e permissões em um sistema Linux.
 
 ## Funcionalidades
 O script realiza as seguintes ações:
